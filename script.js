@@ -9,7 +9,7 @@ function firstWord(s) {
     return s.slice(0, s.indexOf(' '));
 }
 
-}
+
 
 // Do not change the code below
 
