@@ -2,10 +2,11 @@ function firstWord(s) {
     if (!s) return '';
 
  
-    if (!s.includes(' ')) return s;
+    if (!s.includes(' ')) 
+		return s;
 
 
-    return s.slice(0, s.indexOf(' '));
+    return s.split(' ')[0];
 }
 
 }
